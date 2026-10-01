@@ -3,59 +3,176 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sedo Çakır — Product Designer, Design System Expert and indie app builder.">
-  <meta name="theme-color" content="#f7f7f5">
-  <title>Sedo Çakır</title>
+  <meta name="description" content="Sedat Çakır — Product Designer, UI/UX Designer and indie builder based in Istanbul.">
+  <meta name="theme-color" content="#f4f4f0">
+  <title>Sedat Çakır — Product Designer & Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/">Sedo Çakır</a>
+    <a class="brand" href="/">Sedat Çakır<span>.</span></a>
     <nav aria-label="Primary">
-      <a href="#work">Work</a><a href="#apps">Apps</a><a href="#about">About</a>
-      <a href="https://github.com/sedatcakir" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="#work">Work</a>
+      <a href="#build">Build</a>
+      <a href="#about">About</a>
+      <a href="https://www.linkedin.com/in/cakirsedat/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
     </nav>
   </header>
+
   <main>
     <section class="hero">
-      <p class="eyebrow">PRODUCT DESIGNER · BUILDER</p>
-      <h1>I design digital products<br>and build some of them too.</h1>
-      <p class="intro">15+ years in UI/UX, design systems and product design. These days I also build iOS and Android products with SwiftUI, Kotlin and Supabase.</p>
-      <div class="links"><a class="button" href="#work">Selected work ↓</a><a href="mailto:hello@sedatcakir.net">Get in touch ↗</a></div>
+      <div class="hero-top">
+        <p class="eyebrow">ISTANBUL · PRODUCT DESIGN · BUILDING</p>
+        <span class="availability">15+ YEARS IN DESIGN</span>
+      </div>
+      <h1>Designing products.<br><em>Building some of them.</em></h1>
+      <p class="intro">I'm Sedat, a product designer focused on UI/UX, design systems and digital products. After years of designing interfaces, I started writing the code too.</p>
+      <div class="hero-links">
+        <a class="button" href="#work">Explore my work <span>↓</span></a>
+        <a href="https://www.linkedin.com/in/cakirsedat/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/sedatcakir" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
     </section>
+
     <section id="work" class="section">
-      <div class="section-heading"><span>01</span><h2>Selected work</h2></div>
+      <div class="section-heading">
+        <span>01</span>
+        <div><p class="kicker">SELECTED WORK</p><h2>From large-scale products<br>to things I build myself.</h2></div>
+      </div>
+
       <div class="work-list">
-        <article class="work-item"><div><p class="meta">PRODUCT · DESIGN SYSTEM</p><h3>Emlakjet</h3></div><p>Digital real-estate experiences, product interfaces and scalable design-system work.</p></article>
-        <article class="work-item"><div><p class="meta">PRODUCT · IOS · ANDROID</p><h3>AidatBak</h3></div><p>A lightweight apartment and residential dues management product built around simple, accessible workflows.</p></article>
-        <article class="work-item"><div><p class="meta">PRODUCT · FINTECH · IOS · ANDROID</p><h3>Kartly</h3></div><p>A focused debt and payment reminder app designed to make upcoming financial obligations visible at a glance.</p></article>
-        <article class="work-item"><div><p class="meta">PRODUCT · REWARDS · IOS</p><h3>Bonusops</h3></div><p>A campaign discovery product that brings bank rewards into one place and helps users understand the value of an offer before they shop.</p></article>
+        <article class="work-item featured">
+          <div class="work-number">01</div>
+          <div class="work-content">
+            <div class="work-meta"><span>EMLAKJET</span><span>PRODUCT · UX · DESIGN SYSTEMS</span></div>
+            <h3>Designing for the decisions people make around real estate.</h3>
+            <p>Product design, interface systems and experience work across a major Turkish real-estate platform.</p>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-number">02</div>
+          <div class="work-content">
+            <div class="work-meta"><span>AIDATBAK</span><span>IOS · ANDROID · SUPABASE</span></div>
+            <h3>A simpler way to manage residential dues.</h3>
+            <p>An independent product built from the problem definition through design, development and release.</p>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-number">03</div>
+          <div class="work-content">
+            <div class="work-meta"><span>KARTLY</span><span>IOS · ANDROID · FINTECH</span></div>
+            <h3>A small app born from a very real personal problem.</h3>
+            <p>Debt and payment reminders designed around one job: knowing what needs attention before the due date.</p>
+          </div>
+        </article>
+
+        <article class="work-item">
+          <div class="work-number">04</div>
+          <div class="work-content">
+            <div class="work-meta"><span>BONUSOPS</span><span>IOS · REWARDS · PRODUCT</span></div>
+            <h3>Making bank campaigns easier to discover and understand.</h3>
+            <p>A focused rewards discovery product with campaign filtering, comparison and a benefit calculator.</p>
+          </div>
+        </article>
       </div>
     </section>
-    <section id="apps" class="section">
-      <div class="section-heading"><span>02</span><h2>Things I build</h2></div>
-      <div class="cards">
-        <a class="card" href="https://apps.apple.com/" target="_blank" rel="noreferrer"><span class="card-index">01</span><h3>iOS</h3><p>SwiftUI, native interaction patterns and product-focused architecture.</p><span class="arrow">↗</span></a>
-        <a class="card" href="https://play.google.com/" target="_blank" rel="noreferrer"><span class="card-index">02</span><h3>Android</h3><p>Kotlin, Jetpack Compose and interfaces that stay close to the platform.</p><span class="arrow">↗</span></a>
-        <a class="card" href="https://supabase.com/" target="_blank" rel="noreferrer"><span class="card-index">03</span><h3>Backend</h3><p>Supabase, authentication, PostgreSQL, Edge Functions and product infrastructure.</p><span class="arrow">↗</span></a>
+
+    <section id="build" class="section build-section">
+      <div class="section-heading">
+        <span>02</span>
+        <div><p class="kicker">WHAT I BUILD</p><h2>Design is still the starting point.<br>Code is now part of the process.</h2></div>
+      </div>
+
+      <div class="build-grid">
+        <a class="build-card" href="https://apps.apple.com/tr/iphone/search?l=tr&term=sedat%20cakir" target="_blank" rel="noreferrer">
+          <span class="card-label">01 · MOBILE</span>
+          <strong>iOS</strong>
+          <p>SwiftUI, native interaction patterns and product-first implementation.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="build-card" href="https://play.google.com/store/apps/dev?id=8852467530696447473" target="_blank" rel="noreferrer">
+          <span class="card-label">02 · MOBILE</span>
+          <strong>Android</strong>
+          <p>Kotlin, Jetpack Compose and interfaces that respect the platform.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="build-card" href="https://www.figma.com/@sedatcakir" target="_blank" rel="noreferrer">
+          <span class="card-label">03 · TOOLS</span>
+          <strong>Figma</strong>
+          <p>Plugins and small tools that remove friction from design workflows.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="build-card" href="https://supabase.com/" target="_blank" rel="noreferrer">
+          <span class="card-label">04 · BACKEND</span>
+          <strong>Supabase</strong>
+          <p>Auth, PostgreSQL, Edge Functions and the infrastructure behind small products.</p>
+          <span class="card-arrow">↗</span>
+        </a>
       </div>
     </section>
+
+    <section class="statement">
+      <p>“The interesting part is the space between the design file and the shipped product.”</p>
+    </section>
+
     <section id="about" class="section about">
-      <div class="section-heading"><span>03</span><h2>About</h2></div>
+      <div class="section-heading">
+        <span>03</span>
+        <div><p class="kicker">ABOUT</p><h2>A designer getting<br>closer to the product.</h2></div>
+      </div>
+
       <div class="about-grid">
-        <p class="large">I started in interface design and gradually moved closer to the product itself: systems, flows, decisions, constraints and code.</p>
-        <div><p>I care about interfaces that feel obvious, systems that scale without becoming complicated, and products that solve a real problem rather than just looking polished.</p><p>Currently exploring the space between product design and software development.</p></div>
+        <div>
+          <p class="large">For more than 15 years I've worked across UI/UX, product design and design systems. Today I also build the products I design.</p>
+        </div>
+        <div class="about-copy">
+          <p>My work sits between visual craft and product thinking: understanding a problem, shaping the experience, defining the system and getting it shipped.</p>
+          <p>In recent years that has expanded into SwiftUI, Kotlin, Jetpack Compose, Supabase and AI-assisted development.</p>
+          <p>I also make Figma plugins and small independent apps whenever I find a problem worth solving.</p>
+        </div>
       </div>
     </section>
-    <section class="section now">
-      <div class="section-heading"><span>04</span><h2>Now</h2></div>
-      <ul><li><span>Design</span> Product design & design systems</li><li><span>Build</span> SwiftUI & Jetpack Compose</li><li><span>Ship</span> Small independent products</li><li><span>Explore</span> AI-assisted product development</li></ul>
+
+    <section class="section timeline">
+      <div class="section-heading">
+        <span>04</span>
+        <div><p class="kicker">NOW</p><h2>What I'm working on.</h2></div>
+      </div>
+      <div class="timeline-list">
+        <div><span>01</span><strong>Product Design</strong><p>Interfaces, flows, design systems and product decisions.</p></div>
+        <div><span>02</span><strong>Independent Apps</strong><p>Shipping useful products from idea to App Store and Google Play.</p></div>
+        <div><span>03</span><strong>Design → Code</strong><p>Reducing the distance between a design and the thing users actually touch.</p></div>
+        <div><span>04</span><strong>Design Tools</strong><p>Small Figma plugins and workflow experiments.</p></div>
+      </div>
+    </section>
+
+    <section class="connect">
+      <p class="kicker">LET'S CONNECT</p>
+      <h2>Have a product problem<br>worth talking about?</h2>
+      <div>
+        <a class="button" href="https://www.linkedin.com/in/cakirsedat/" target="_blank" rel="noreferrer">Find me on LinkedIn ↗</a>
+        <a href="https://github.com/sedatcakir" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </div>
     </section>
   </main>
+
   <footer>
-    <div><strong>Sedo Çakır</strong><span>Product Designer & Builder</span></div>
-    <div class="footer-links"><a href="https://github.com/sedatcakir" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/sedatcakir/" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:hello@sedatcakir.net">Email</a></div>
-    <small>© 2026 Sedo Çakır</small>
+    <div>
+      <strong>Sedat Çakır<span>.</span></strong>
+      <small>Product Designer · Builder</small>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/cakirsedat/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://github.com/sedatcakir" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.figma.com/@sedatcakir" target="_blank" rel="noreferrer">Figma</a>
+      <a href="https://medium.com/@sedatcakir" target="_blank" rel="noreferrer">Medium</a>
+    </div>
+    <small>© 2026 Sedat Çakır</small>
   </footer>
 </body>
 </html>
